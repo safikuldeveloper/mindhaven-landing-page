@@ -2,21 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  /* --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Nunito",  sans-serif;
-  --nav-font: "Inter",  sans-serif;
-  --background-color: #ffffff; 
-  --default-color: #3d4348;
-  --heading-color: #3e5055;
-  --accent-color: #388da8;
-  --surface-color: #ffffff; 
-  --contrast-color: #ffffff;
-  --nav-color: #313336;
-  --nav-hover-color: #77b6ca;
-  --nav-mobile-background-color: #ffffff;
-  --nav-dropdown-background-color: #ffffff; 
-  --nav-dropdown-color: #313336;
-  --nav-dropdown-hover-color: #77b6ca; */
+
 
   --primary: #2F327D;
   --secondary: #F48C06;
@@ -28,16 +14,6 @@
 }
 
 
-/* body {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #FFF2E1;
-  width: 100%;
-  border-radius: 0% 0% 54% 51% / 10% 10% 18% 19% ;
-} */
   
 body {
     font-family: Poppins;
@@ -1042,4 +1018,13 @@ line-height: 1.6;
 .footer h5 {
   font-size: 2rem;
   font-weight: 500;
+}
+
+.footer-menu li a {
+  transition: 0.3s;
+}
+
+.footer-menu li a:hover {
+  text-decoration: none;
+  color: var(--secondary);
 }
