@@ -49,7 +49,6 @@ a {
 .header {
   color: var(--tertiary);
   background-color: #FFF2E1;
-  /* background-color: var(--white); */
   padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -478,10 +477,13 @@ a {
   background-color: var(--secondary);
 }
 
+.btn-hover {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
 .btn-hover:hover{
   background-color: var(--primary);
 }
-
 
 .trusted-section {
   text-align: center;
@@ -653,6 +655,12 @@ a {
   text-decoration: underline;
   font-size: 1.2rem;
   font-weight: 400;
+  color: var(--primary);
+  transition: color 0.3s ease;
+}
+
+.about-blog-read-more a:hover {
+  color: var(--secondary);
 }
 
 .about-youtube {
@@ -905,6 +913,11 @@ line-height: 1.6;
   color: var(--primary);
   line-height: 1.5rem;
   text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.blog-read-more a:hover {
+  color: var(--secondary);
 }
 
 .blog-tag {
@@ -925,16 +938,13 @@ line-height: 1.6;
 }
 
 .blog-list-items .blog-list-item {
-  display: flex;
-  gap: 1rem;
   border-radius: 12px;
-  align-items: flex-start;
   position: relative;
 }
 
 .blog-list-items .blog-image {
-  width: 200px;
-  height: 160px;
+  width: 100%;
+  height: 10rem;
   border-radius: 12px;
   object-fit: cover;
 }
@@ -951,7 +961,7 @@ line-height: 1.6;
   font-weight: 400;
   color: #fff;
   position: absolute;
-  left: 10px;
+  left: 20px;
   bottom: 10px;
   background-color: #F4C467;
   color: var(--primary);
@@ -1021,7 +1031,7 @@ line-height: 1.6;
 }
 
 .footer-menu li a {
-  transition: 0.3s;
+  transition: color 0.3s ease;
 }
 
 .footer-menu li a:hover {
